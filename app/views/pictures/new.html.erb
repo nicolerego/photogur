@@ -1,5 +1,6 @@
 <h1>Add a picture</h1>
-
+<%= link_to "Back to Pictures", pictures_url %>
+<!-- First parameter is the text and second is the URL clicking the text takes you to -->
 <%= form_for :picture, url: '/pictures' do |f| %>
 	<p>
 		<%= f.label :artist %></br>
